@@ -10,11 +10,11 @@ Este repositório reúne os instaladores, versões portáteis e informações de
 
 | Sistema | Arquivo | Uso |
 | --- | --- | --- |
-| Windows x64 | `LsnTeX-0.4.0-Instalador-x64.exe` | Instalação com atalho |
-| Windows x64 | `LsnTeX-0.4.0-Portatil-x64.exe` | Executável sem instalação |
-| Ubuntu / Debian amd64 | `LsnTeX-0.4.0-Linux-amd64.deb` | Instalação pelo apt |
-| Linux x86_64 | `LsnTeX-0.4.0-Linux-x86_64.AppImage` | Aplicativo portátil |
-| Linux x64 | `LsnTeX-0.4.0-Linux-x64.tar.gz` | Pasta portátil compactada |
+| Windows x64 | `LsnTeX-0.5.0-Instalador-x64.exe` | Instalação com atalho |
+| Windows x64 | `LsnTeX-0.5.0-Portatil-x64.exe` | Executável sem instalação |
+| Ubuntu / Debian amd64 | `LsnTeX-0.5.0-Linux-amd64.deb` | Instalação pelo apt |
+| Linux x86_64 | `LsnTeX-0.5.0-Linux-x86_64.AppImage` | Aplicativo portátil |
+| Linux x64 | `LsnTeX-0.5.0-Linux-x64.tar.gz` | Pasta portátil compactada |
 
 Os pacotes não exigem Node.js. Instruções de uso e `SHA256SUMS.txt` acompanham cada versão.
 
@@ -23,14 +23,18 @@ Os pacotes não exigem Node.js. Instruções de uso e `SHA256SUMS.txt` acompanha
 - Projetos em pastas locais, importação e exportação de ZIP, arquivos e abas.
 - Editor LaTeX com autocompletar, indentação, busca, símbolos, macros e atalhos.
 - PDF integrado, zoom, restauração da visualização e SyncTeX nos dois sentidos.
+- Prévia do PDF em qualidade Alta ou Ultra, zoom com Ctrl + rolagem e preservação do ponto de leitura.
+- Barra de símbolos com rolagem horizontal e dicionários pessoais editáveis, com importação/exportação JSON.
 - Correção ortográfica offline em português e inglês, sugestões e dicionário pessoal.
 - Cinco paletas: Clássico, Oceano, Ametista, Grafite e Aurora, com aparência clara ou escura. Laranja e verde continuam como padrão.
 - Escala de toda a interface, de 100% a 200%.
 - Modelos de artigo, relatório, Beamer, carta e TikZ com exemplos de fluidodinâmica.
 
-![LsnTeX no Windows com a paleta Oceano](images/windows.png)
+![LsnTeX no Windows com PDF e símbolos pessoais](images/windows.png)
 
 ![LsnTeX no Linux com a paleta Clássico](images/linux.png)
+
+![Dicionários de símbolos pessoais](images/symbols.png)
 
 ## Instalação
 
@@ -39,7 +43,7 @@ No Windows, execute o instalador ou a edição portátil. Se nenhum compilador f
 No Ubuntu / Debian, na pasta do arquivo baixado:
 
 ```bash
-sudo apt install ./LsnTeX-0.4.0-Linux-amd64.deb
+sudo apt install ./LsnTeX-0.5.0-Linux-amd64.deb
 ```
 
 O apt resolve as bibliotecas necessárias e recomenda os componentes do TeX Live que cobrem os modelos incluídos. No Linux, use o gerenciador da distribuição para instalar o compilador e seus componentes adicionais.
@@ -47,8 +51,8 @@ O apt resolve as bibliotecas necessárias e recomenda os componentes do TeX Live
 Para o AppImage:
 
 ```bash
-chmod +x LsnTeX-0.4.0-Linux-x86_64.AppImage
-./LsnTeX-0.4.0-Linux-x86_64.AppImage
+chmod +x LsnTeX-0.5.0-Linux-x86_64.AppImage
+./LsnTeX-0.5.0-Linux-x86_64.AppImage
 ```
 
 Sem FUSE, acrescente `--appimage-extract-and-run`. Se a política de sandbox do sistema restringir aplicativos portáteis, prefira o `.deb`.
@@ -62,3 +66,4 @@ A versão Linux x64 foi testada no Ubuntu 24.04 pelo WSL2, com TeX Live. Outras 
 ## Licenças
 
 O LsnTeX é distribuído sob a licença MIT. Os pacotes incluem os avisos e licenças de seus componentes. MiKTeX e TeX Live são instalações independentes. Os arquivos `THIRD-PARTY-NOTICES.txt` e `FONTES-DICIONARIOS.txt` acompanham os releases.
+
