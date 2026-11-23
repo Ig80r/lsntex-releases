@@ -1,0 +1,5 @@
+*.exe
+*.AppImage
+*.deb
+*.tar.gz
+*.log
