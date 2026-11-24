@@ -40,15 +40,15 @@ Clique em **CÓDIGO LATEX**, acima do editor, para escolher sua fonte e experime
 
 | Sistema | Arquivo | Como usar |
 | --- | --- | --- |
-| Windows | [Instalador x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.1-Instalador-x64.exe) | Instale e abra pelo atalho. |
-| Windows | [Portátil x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.1-Portatil-x64.exe) | Baixe e execute, sem instalar o editor. |
-| Ubuntu / Debian | [Pacote .deb](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.1-Linux-amd64.deb) | Instale com o gerenciador de pacotes. |
-| Linux | [AppImage x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.1-Linux-x86_64.AppImage) | Permita a execução do arquivo e abra o aplicativo. |
+| Windows | [Instalador x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.2-Instalador-x64.exe) | Instale e abra pelo atalho. |
+| Windows | [Portátil x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.2-Portatil-x64.exe) | Baixe e execute, sem instalar o editor. |
+| Ubuntu / Debian | [Pacote .deb](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.2-Linux-amd64.deb) | Instale com o gerenciador de pacotes. |
+| Linux | [AppImage x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.2-Linux-x86_64.AppImage) | Permita a execução do arquivo e abra o aplicativo. |
 
 Para instalar o pacote no Ubuntu ou Debian, abra um terminal na pasta do download:
 
 ```bash
-sudo apt install ./LsnTeX-0.5.1-Linux-amd64.deb
+sudo apt install ./LsnTeX-0.5.2-Linux-amd64.deb
 ```
 
 O LsnTeX compila os documentos com **MiKTeX ou TeX Live**. No Windows, prepara o MiKTeX automaticamente se nenhum compilador for encontrado e permite instalar os pacotes LaTeX conforme forem necessários. No Linux, o pacote `.deb` recomenda os componentes do TeX Live para os modelos incluídos.
