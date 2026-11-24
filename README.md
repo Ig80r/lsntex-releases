@@ -14,6 +14,7 @@ Editor LaTeX em português para **Windows e Linux**, com projetos locais, visual
 
 - **Projetos no seu computador:** crie documentos, abra pastas, importe projetos ZIP ou abra um `.tex` diretamente pelo sistema, sem passar pela seleção de projetos.
 - **Editor personalizável:** escolha fonte, tamanho e espaçamento entre linhas, com prévia antes de aplicar. Organize o código com recuo automático, busca, abas e atalhos.
+- **Sugestões enquanto escreve:** digite `\begin{figu`, `\begin{t` ou `\begin{equ` e escolha um ambiente completo. Figuras, tabelas, equações e listas já vêm com a estrutura e o fechamento; confirme com Enter ou Tab e use Tab para preencher os campos.
 - **Correção ortográfica:** português e inglês, com sugestões e dicionário pessoal para nomes e termos científicos.
 - **PDF integrado:** dê dois cliques no PDF para abrir o trecho correspondente no código. Amplie com Ctrl + rolagem, arraste com a mãozinha, selecione e copie texto.
 - **Símbolos à mão:** percorra as categorias com o mouse e crie seus próprios dicionários de comandos, com importação e exportação em JSON.
@@ -40,15 +41,15 @@ Clique em **CÓDIGO LATEX**, acima do editor, para escolher sua fonte e experime
 
 | Sistema | Arquivo | Como usar |
 | --- | --- | --- |
-| Windows | [Instalador x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.3-Instalador-x64.exe) | Instale e abra pelo atalho. |
-| Windows | [Portátil x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.3-Portatil-x64.exe) | Baixe e execute, sem instalar o editor. |
-| Ubuntu / Debian | [Pacote .deb](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.3-Linux-amd64.deb) | Instale com o gerenciador de pacotes. |
-| Linux | [AppImage x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.3-Linux-x86_64.AppImage) | Permita a execução do arquivo e abra o aplicativo. |
+| Windows | [Instalador x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.4-Instalador-x64.exe) | Instale e abra pelo atalho. |
+| Windows | [Portátil x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.4-Portatil-x64.exe) | Baixe e execute, sem instalar o editor. |
+| Ubuntu / Debian | [Pacote .deb](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.4-Linux-amd64.deb) | Instale com o gerenciador de pacotes. |
+| Linux | [AppImage x64](https://github.com/Ig80r/lsntex-releases/releases/latest/download/LsnTeX-0.5.4-Linux-x86_64.AppImage) | Permita a execução do arquivo e abra o aplicativo. |
 
 Para instalar o pacote no Ubuntu ou Debian, abra um terminal na pasta do download:
 
 ```bash
-sudo apt install ./LsnTeX-0.5.3-Linux-amd64.deb
+sudo apt install ./LsnTeX-0.5.4-Linux-amd64.deb
 ```
 
 O LsnTeX compila os documentos com **MiKTeX ou TeX Live**. No Windows, prepara o MiKTeX automaticamente se nenhum compilador for encontrado e permite instalar os pacotes LaTeX conforme forem necessários. No Linux, o pacote `.deb` recomenda os componentes do TeX Live para os modelos incluídos.
